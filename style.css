@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background:linear-gradient(358deg,#080707,#0b2922);
+}
+.game{
+    width: 100%;
+    max-width: 500px;
+    height: 90%;
+    background-color: rgb(195,233,252);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+h2{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 1px rgb(236, 255, 236);
+}
+span{
+    color: rgb(44 1 206);
+}
+#hist{
+    color: #795548;
+}
+input{
+    border-radius: 5px;
+    border: none;
+    width: 10rem;
+    display: inline-block;
+    margin: 0px auto;
+    height: 1.5rem;
+    font-size: 1.2rem;
+}
+label{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight:800;
+    /* animation: rem 6s ease-in-out infinite 1.2s; */
+}
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:100;
+}
+h4,h5{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    font-weight: 300;
+    color: #11141f;
+    transition: 1s color ease-in-out;
+}
+
+button{
+    width: 10rem;
+    height: 2rem;
+    display: inline-block;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(2, 32, 46);
+    color:white;
+    border-radius: 10px;
+}
+div{
+    width: 100%;
+    display: flex;
+}
+button:nth-of-type(1):hover{
+    border: 1px solid greenyellow;
+    background-color: gold;
+    color: black;
+}
+@keyframes res {
+    0%{
+        transform: scale(0.2);
+        color: rgb(13, 9, 15);
+    }
+    50%{
+        transform: scale(0.8);
+        color: rgb(114, 68, 7);
+    }
+    100%{
+        transform: scale(1);
+        color: #022929;
+
+    }
+    
+}
+@keyframes rem {
+    0%{
+        transform: scale(0.2);
+        color: indigo;
+    }
+    50%{
+        transform: scale(0.8);
+        color: rgb(243, 145, 18);
+    }
+    100%{
+        transform: scale(1.2);
+        font-weight: bolder;
+        color: #000f5b;
+
+    }
+}
+@keyframes won {
+    0%{
+        color: rgb(36, 109, 42);
+        transform: scale(0.2);
+    }
+    50%{
+        color: rgb(27, 139, 32);
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        color: rgb(3, 51, 3);
+        font-weight: bolder;
+    }
+}
+
+@media(max-width:505px){
+    .game{
+        width: 95%;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    h2{
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+    h5{
+        font-size: 1.1rem;
+    }
+}
