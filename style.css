@@ -8,6 +8,7 @@ body{
    align-items: center;
    background:linear-gradient(358deg,#080707,#0b2922);
 }
+
 .game{
     width: 100%;
     max-width: 500px;
@@ -26,6 +27,7 @@ h1{
     color: white;
     
 }
+
 h2{
     font-size: 1rem;
     font-weight: 400;
@@ -34,12 +36,15 @@ h2{
     color: rgb(0, 0, 0);
     text-shadow: 3px 3px 1px rgb(236, 255, 236);
 }
+
 span{
     color: rgb(44 1 206);
 }
+
 #hist{
     color: #795548;
 }
+
 input{
     border-radius: 5px;
     border: none;
@@ -49,19 +54,21 @@ input{
     height: 1.5rem;
     font-size: 1.2rem;
 }
+
 label{
     display: inline-block;
     text-align: center;
     font-size: 1.1rem;
     font-family: sans-serif;
 }
+
 p{
     text-align: center;
     font-size: 1.2rem;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-weight:800;
-    /* animation: rem 6s ease-in-out infinite 1.2s; */
 }
+
 h3{
     text-align: center;
     font-size: 1.2rem;
@@ -89,15 +96,18 @@ button{
     color:white;
     border-radius: 10px;
 }
+
 div{
     width: 100%;
     display: flex;
 }
+
 button:nth-of-type(1):hover{
     border: 1px solid greenyellow;
     background-color: gold;
     color: black;
 }
+
 @keyframes res {
     0%{
         transform: scale(0.2);
@@ -110,10 +120,9 @@ button:nth-of-type(1):hover{
     100%{
         transform: scale(1);
         color: #022929;
-
     }
-    
 }
+
 @keyframes rem {
     0%{
         transform: scale(0.2);
@@ -130,6 +139,7 @@ button:nth-of-type(1):hover{
 
     }
 }
+
 @keyframes won {
     0%{
         color: rgb(36, 109, 42);
